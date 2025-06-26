@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://vercel.com/ponkanimozhis-projects/authentication',
+  origin: 'https://authentication-six-ivory.vercel.app',
   credentials: true
 }));
 app.use(express.json());
